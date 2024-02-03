@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body class="body">
+    <img src="anime.jpg" class="game">
+    <div class="left">
+        <p class="font-family">Registration</p>
+        <div class="color-line"></div>
+        <p class="fullname">Full Name</p>
+        <label class="search-label">
+            <input type="text" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+        <p class="email">Email</p>
+        <label class="search-label">
+            <input type="email" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+        <p class="country">Country</p>
+        <label class="search-label">
+            <input type="text" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+        <p class="password">Password</p>
+        <label class="search-label">
+            <input type="password" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+    </div>
+    <div class="right">
+        <p class="position">Position you are applying for</p>
+        <label class="search-label">
+            <select name="Occupation" class="input-dropdown" required="">
+                <option value="" disabled selected hidden>Please select your occupation</option>
+                <option value="Software engineer">Software engineer</option>
+                <option value="Computer engineer">Computer engineer</option>
+                <option value="Professor">Professor</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Student">Student</option>
+            </select>
+        </label>
+
+        <p class="ph_no">Phone Number</p>
+        <label class="search-label">
+            <input type="email" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+        <p class="city">City</p>
+        <label class="search-label">
+            <input type="email" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+        <p class="confirmpassword">Confirm Password</p>
+        <label class="search-label">
+            <input type="email" name="text" class="input" required="" placeholder="Please enter your">
+        </label>
+    </div>
+    <div class="gender">
+        <p>Gender</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male" class="gender-label">Male</label>
+
+        <input type="radio" name="gender" id="female">
+        <label for="female" class="gender-label">Female</label>
+
+        <input type="radio" name="gender" id="other">
+        <label for="other" class="gender-label">Other</label>
+
+        <input type="radio" name="gender" id="prefer-not-to-say">
+        <label for="prefer-not-to-say" class="gender-label">Prefer not to say</label>
+        <button class="btn">
+            <span class="text">Next Step</span>
+        </button>
+        <p class="signin">Already have an account?<a href="#"> Sign in</a></p>
+    </div>
+</body>
+
+</html>
